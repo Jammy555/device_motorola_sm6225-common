@@ -212,6 +212,7 @@ persist.vendor.sensors.enable.mag_filter=true
 persist.vendor.sensors.enable.rt_task=false
 persist.vendor.sensors.hal_trigger_ssr=false
 persist.vendor.sensors.support_direct_channel=false
+persist.vendor.sensors.debug.hal=0
 ro.vendor.sensors.glance_approach=false
 ro.vendor.sensors.mot_ltv=true
 ro.vendor.sensors.pug=false
