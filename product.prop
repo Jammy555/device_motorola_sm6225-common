@@ -14,6 +14,9 @@ ro.lmk.psi_complete_stall_ms=120
 ro.lmk.psi_partial_stall_ms=50
 ro.lmk.filecache_min_kb=300000
 
+# Disable RescueParty due to high risk of data loss
+persist.sys.disable_rescue=true
+
 # Motorola
 ro.mot.build.customerid=global
 ro.vendor.mot.factory=false
