@@ -142,6 +142,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FM2
 
+# GApps
+TARGET_USES_MINI_GAPPS := true
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-impl-qti \
@@ -245,6 +248,7 @@ PRODUCT_PACKAGES += \
     LineageApertureAppCommon \
     NcmTetheringOverlay \
     SettingsProviderResCommon \
+    SettingsResCommon \
     SystemUIResCommon \
     TelephonyResCommon \
     TelephonyResProduct \
