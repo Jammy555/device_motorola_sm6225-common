@@ -17,4 +17,8 @@
 <resources>
     <!-- Whether to show Smooth Display feature in Settings Options -->
     <bool name="config_show_smooth_display">true</bool>
+
+    <!-- Custom Maintainer -->
+    <string name="build_maintainer_summary" translatable="false">Deivid Ignacio Parra (Deivid21)</string>
+    <string name="build_maintainer_donate_url" translatable="false">https://www.paypal.com/paypalme/Deivid21</string>
 </resources>
