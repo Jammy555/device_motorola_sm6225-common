@@ -26,3 +26,6 @@ arm64.memtag.process.system_server=off
 
 # Voice assistant
 ro.opa.eligible_device=true
+
+# Lunaris flag
+ro.lunaris.maintainer= P Ř /\ T I=I /\ P | @SuperJammy
