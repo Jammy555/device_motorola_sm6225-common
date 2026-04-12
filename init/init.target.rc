@@ -49,6 +49,13 @@ on init
     start vendor.qseecomd
     start keymaster-4-0
 
+    # VM writeback and cache tuning
+    write /proc/sys/vm/vfs_cache_pressure 150
+    write /proc/sys/vm/dirty_ratio 10
+    write /proc/sys/vm/dirty_background_ratio 5
+    write /proc/sys/vm/dirty_expire_centisecs 200
+    write /proc/sys/vm/dirty_writeback_centisecs 100
+
 on early-fs
     start vold
 
