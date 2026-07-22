@@ -126,6 +126,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.composer-service \
     vendor.qti.hardware.memtrack-service
 
+# Dolby
+$(call inherit-product, vendor/sony/dolby/sonydolby.mk)
+
 PRODUCT_PACKAGES += \
     init.qti.display_boot.rc \
     init.qti.display_boot.sh
